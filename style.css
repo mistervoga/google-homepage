@@ -1,11 +1,5 @@
 .body {  
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    width: 400px;
-    height:400px;
-    text-align: center;
+
 }
 
 ul.right {
@@ -22,20 +16,21 @@ ul.left {
     align-items: center;
     padding: 14%;
     margin: 0 auto;
-    text-align: -webkit-center;
  
 }
 
 #google-first-doodle {
 
-    margin: -10%;
+    margin: -16%;
+    padding-left: 7%;
+    
 }
 
 .form {
     align-items: center;
     justify-content: center;
     display: flex;
-    margin: -15%;
+    margin: -11%;
     clear: both;
 
 }
@@ -44,9 +39,15 @@ ul.left {
     align-items: center;
     justify-content: center;
     display: flex;
+    padding: 11%;
   
 }
 
+#input {
+    height: 34px !important;
+    width: 512px;
+    
+}
 
 
 li {
@@ -71,7 +72,7 @@ footer {
 
 a {
     display: inline;
-    padding: 8px;
+    padding: 7px;
     color: black; 
     text-decoration: none;
 } 
