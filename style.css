@@ -1,13 +1,9 @@
-.body {  
-
-}
-
 ul.right {
     float: right; 
 }
 
 ul.left {
-    float: left; 
+    float: left;
 }
 
 .middle {
@@ -49,6 +45,10 @@ ul.left {
     
 }
 
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.85em;
+}
 
 li {
     display: inline;
@@ -114,17 +114,15 @@ a {
 
 #button {
     display: inline-block;
-    background-color: #f1f1f1;
-    background-image: linear-gradient(top,#f5f5f5,#f1f1f1);
-    color: #444;
-    
+    background-color: #2057ec;
+    color: rgb(6, 53, 182);
     border: 1px solid #dcdcdc;
     -webkit-border-radius: 2px;
     border-radius: 2px;
-     
     cursor: default;
     font-size: 11px;
     font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     height: 27px;
     line-height: 27px;
@@ -132,6 +130,6 @@ a {
     padding: 0 8px;
     text-decoration: none;
     margin: 10px; 
-    color: #757575; 
+    color: #f1f1f1; 
 
 }
